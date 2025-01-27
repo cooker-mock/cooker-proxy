@@ -1,0 +1,38 @@
+{
+  "name": "cooker-proxy",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "git@github.com:Alex-xd/cooker-proxy.git",
+  "author": "boyuan <531237512@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node devScript.js && vite",
+    "postbuild": "node buildScript.js",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.6.0",
+    "antd": "^5.23.2",
+    "axios": "^1.7.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "rollup-plugin-visualizer": "^5.14.0",
+    "vite": "^6.0.5"
+  }
+}

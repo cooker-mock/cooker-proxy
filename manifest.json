@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Cooker Proxy",
+  "version": "1.0",
+  "description": "Intercept HTTP requests and route them to cooker-mock local server or real servers",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/dist/index.html",
+    "default_icon": "assets/icon.png"
+  },
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
