@@ -1,7 +1,7 @@
 {
   "name": "cooker-proxy",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "repository": "git@github.com:Alex-xd/cooker-proxy.git",
   "author": "boyuan <531237512@outlook.com>",
@@ -11,7 +11,8 @@
     "postbuild": "node buildScript.js",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.0",
@@ -33,6 +34,7 @@
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
     "rollup-plugin-visualizer": "^5.14.0",
+    "standard-version": "^9.5.0",
     "vite": "^6.0.5"
   }
 }
