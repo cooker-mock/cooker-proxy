@@ -11,7 +11,10 @@
     "postbuild": "node buildScript.js",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "dependencies": {
     "@ant-design/icons": "^5.6.0",
