@@ -8,12 +8,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite build",
-    "postbuild": "node buildScript.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major"
   },
   "dependencies": {
@@ -29,7 +28,6 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "dotenv": "^16.4.7",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
