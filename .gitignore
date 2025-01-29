@@ -6,10 +6,6 @@ npm-debug.log*
 # Dependency directories
 node_modules/
 
-# Build outputs
-dist/
-public/web-ui-dist/
-
 # Miscellaneous
 .DS_Store
 *.swp

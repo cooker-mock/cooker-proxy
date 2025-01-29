@@ -7,7 +7,7 @@
   "author": "boyuan <531237512@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node devScript.js && vite",
+    "dev": "vite build",
     "postbuild": "node buildScript.js",
     "build": "vite build",
     "lint": "eslint .",
