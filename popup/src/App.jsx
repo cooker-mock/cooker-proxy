@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Radio, Typography, Space } from 'antd';
 import './App.css';
 
@@ -19,7 +19,10 @@ const App = () => {
     const newMode = e.target.value;
     setMode(newMode);
     chrome.storage.sync.set({ mode: newMode });
-    chrome.runtime.sendMessage({ type: 'MODE_CHANGE', mode: newMode });
+    chrome.runtime.sendMessage({
+      type: 'MODE_CHANGE',
+      mode: newMode,
+    });
   };
 
   return (
