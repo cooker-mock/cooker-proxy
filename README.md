@@ -5,7 +5,7 @@ The Chrome Extension for proxying requests to cooker-mock.
 
 - [cooker-mock](https://github.com/cooker-mock/cooker-mock)
 - [cooker-proxy (current)](https://github.com/cooker-mock/cooker-proxy)
-- [cooker-example](https://github.com/cooker-mock/cooker-example)
+- [an-example-front-end-project](https://github.com/cooker-mock/an-example-front-end-project)
 
 # Contribution Guide
 
