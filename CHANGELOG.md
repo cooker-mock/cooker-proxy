@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/cooker-mock/cooker-proxy/compare/v1.2.0...v1.2.1) (2025-03-19)
+
+
+### Bug Fixes
+
+* switch mode ([87b907f](https://github.com/cooker-mock/cooker-proxy/commit/87b907fbfe57e74a072a2253812195eee3a807db))
+
 ## [1.2.0](https://github.com/cooker-mock/cooker-proxy/compare/v1.1.0...v1.2.0) (2025-01-29)
 
 
