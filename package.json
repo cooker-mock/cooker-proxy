@@ -1,7 +1,7 @@
 {
   "name": "cooker-proxy",
   "private": true,
-  "version": "1.2.1",
+  "version": "1.2.3",
   "type": "module",
   "repository": "git@github.com:cooker-mock/cooker-proxy.git.git",
   "author": "boyuan <531237512@outlook.com>",
