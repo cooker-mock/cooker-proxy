@@ -1,3 +1,6 @@
+/**
+ * Content script for the Chrome extension.
+ */
 const script = document.createElement('script');
 script.src = 'http://localhost:8088/cooker-proxy.js';
 document.documentElement.appendChild(script);
